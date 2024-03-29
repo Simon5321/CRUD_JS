@@ -5,8 +5,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CRUD cadastro</title>
+  <title>CRUD cadástro</title>
   <link rel="stylesheet" href="style.css">
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
 <body>
@@ -21,9 +22,8 @@
         <thead>
           <tr>
             <th>Nome</th>
-            <th>Data de nascimento</th>
-            <th>Telefone</th>
             <th>Função</th>
+            <th>Salário</th>
             <th class="acao">Editar</th>
             <th class="acao">Excluir</th>
           </tr>
@@ -38,36 +38,19 @@
         <form>
           <label for="m-nome">Nome</label>
           <input id="m-nome" type="text" required />
-
-          <label for="m-CPF">CPF</label>
-          <input id="m-CPF" type="number" required />
-
-          <label for="m-Datadenascimento">Data de Nascimento</label>
-          <input id="m-Datadenascimento" type="date" required />
-
-          <label for="m-Endereco">Endereço</label>
-          <input id="m-Endereco" type="text" required />
-
-          <label for="m-Telefone">Telefone</label>
-          <input id="m-Telefone" type="number" required />
   
           <label for="m-funcao">Função</label>
           <input id="m-funcao" type="text" required />
   
           <label for="m-salario">Salário</label>
           <input id="m-salario" type="number" required />
-
-          <label for="m-BancodeHoras">Carga Horária</label>
-          <select name="m-BancodeHoras" id="m-BancodeHoras" required>
-            <option> 4hr diárias </option>
-            <option> 6hr diárias </option>
-            <option> 8hr diárias </option>
-
           <button id="btnSalvar">Salvar</button>
         </form>
       </div>
     </div>
+
   </div>
   <script src="script.js"></script>
 </body>
+
 </html>
