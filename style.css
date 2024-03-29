@@ -6,7 +6,6 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
-
 body {
   width: 100vw;
   height: 100vh;
@@ -15,7 +14,6 @@ body {
   justify-content: center;
   background-image: url(PNG\ BODY.png);
 }
-
 button {
   cursor: pointer;
 }
@@ -26,7 +24,6 @@ button {
   border-radius: 10px;
   background: rgb(136, 149, 148);
 }
-
 .header {
   min-height: 70px;
   display: flex;

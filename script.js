@@ -16,7 +16,6 @@ function openModal(edit = false, index = 0) {
       modal.classList.remove('active')
     }
   }
-
   if (edit) {
     sNome.value = itens[index].nome
     sFuncao.value = itens[index].funcao
@@ -27,7 +26,6 @@ function openModal(edit = false, index = 0) {
     sFuncao.value = ''
     sSalario.value = ''
   }
-  
 }
 
 function editItem(index) {
